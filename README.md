@@ -1,4 +1,4 @@
-Réponse au cahier des charges de Safran.
+Réponse au cahier des charges.
 Outils utilisés
 Pour répondre au " java technical test ", j'ai choisi d'utiliser, parmi ceux proposé, les outils 
 suivants :

@@ -33,15 +33,15 @@ Trigger sur maj de la table
 Insertion de données dans la table 'location'
 INSERT INTO location (license_plate, brand, model, status)
 VALUES
-('3730ZG27', 'peugeot', '107', 'AVAILABLE'),
-('AJ-991-JZ', 'peugeot', 'partner', 'RENTED'),
-('FP-030-MR', 'volkswagen', 'golf', 'AVAILABLE'),
-('EH-551-ZY', 'volkswagen', 'passat', 'AVAILABLE') ;
+('3730AA27', 'peugeot', '107', 'AVAILABLE'),
+('AA-991-JA', 'peugeot', 'partner', 'RENTED'),
+('FA-030-MA', 'volkswagen', 'golf', 'AVAILABLE'),
+('EA-551-ZA', 'volkswagen', 'passat', 'AVAILABLE') ;
 Requête de lecture des enregistrements
 SELECT license_plate, brand, model, status FROM location;
 Requête de maj du statut du véhicule
-UPDATE location SET status = 'RENTED' WHERE status = 'AVAILABLE' AND license_plate = 'EH-
-551-ZY'
+UPDATE location SET status = 'RENTED' WHERE status = 'AVAILABLE' AND license_plate = 'EA-
+551-ZA'
 Projet eclipse
 Création d'un projet " simple " maven sous eclipse.
 Ajout du driver Jdbc PostgreSQL en tant que jar externe.
